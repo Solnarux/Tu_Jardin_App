@@ -1,0 +1,11 @@
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.deps.json
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.dll
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\ref\Tu_Jardin_App.Shared.dll
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.pdb
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.AssemblyInfoInputs.cache
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.AssemblyInfo.cs
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.csproj.CoreCompileInputs.cache
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.dll
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\ref\Tu_Jardin_App.Shared.dll
+C:\Users\solna\source\repos\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Tu_Jardin_App.Shared/1.0.0": {
+        "runtime": {
+          "Tu_Jardin_App.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tu_Jardin_App.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
