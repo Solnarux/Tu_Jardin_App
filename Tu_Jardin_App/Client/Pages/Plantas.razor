@@ -1,6 +1,29 @@
 ﻿@page "/plantas"
 
-<h3>Plantas</h3>
+<link href="/css/plantas.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <h3>Tus Plantas</h3>
+
+    <table>
+        <tr>
+            <th class="caja"> 
+                <a href="/plantas/usuario"><img class="imagen" src="/images/aromaticas/salvia.png" /></a> 
+                <p class="texto">Salvia</p>
+            </th>
+            <th class="caja"> 
+                <a href="/plantas/usuario"><img class="imagen" src="/images/cannabis/indica.png" /></a> 
+                <p class="texto">Cannabis indica</p>
+            </th>
+            <th class="caja">  
+                <a style="text-decoration: none;" href="/plantas/seleccionartipo"> 
+                <p class="imagen agregar"> + </p> </a> <p class="texto">Agregar</p>
+            </th>
+
+        </tr>
+    </table>
+</div>
+
 
 @code {
 

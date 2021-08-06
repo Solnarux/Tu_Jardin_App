@@ -1,0 +1,52 @@
+﻿.page-background-class {
+    background-image: url(../images/fondo.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: 100vh;
+    overflow: hidden;
+    display: block;
+}
+
+table {
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagen {
+    border: 4px solid black;
+    width: 12vh;
+    height: 12vh;
+}
+
+.caja {
+    height: 20vh;
+    width: 15vh;
+    margin: 2vh;
+    text-align: center;
+    font-size: 1vw;
+}
+
+h3 {
+    font-size: 5vw;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 25vh;
+}
+
+
+.agregar {
+    background: white;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: auto;
+    color: black;
+    line-height: 10vh;
+}
+
+.texto {
+    min-height: 8vh;
+}
