@@ -1,0 +1,31 @@
+﻿@page "/plantas/seleccionartipo/datos"
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> Crear Registro de Siembra </h4>
+
+        <form action="/plantas">
+            <table>
+                <tr>
+                    <td><p class="info" style="text-align: right; margin-right: 1vw;">Nombre del Responsable: </p></td>
+                    <td><input type="text" placeholder="Nombre" style="width: 100%;"></td>
+                </tr>
+                <tr>
+                    <td><p class="info" style="text-align: right; margin-right: 1vw;">Sembrada en: </p></td>
+                    <td><input type="date" placeholder="Fecha" style="width: 100%;"></td>
+                </tr>
+                <tr>
+                    <td><input class="boton" style="width: 10vw;" type="submit" value="Crear" /></td>
+                    <td><input class="boton" style="width: 10vw;" type="button" value="Salir" /></td>
+                </tr>
+            </table>
+        </form>   
+    </div>
+</div>
+
+@code {
+
+}
