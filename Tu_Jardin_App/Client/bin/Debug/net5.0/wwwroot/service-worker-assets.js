@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-+G3he\/XjRajt8kQ0UF4QiYByeExxAh\/YYKicjDj2ITI=",
+      "hash": "sha256-9chc73iec\/f4y9Ty2SjoUjtU6xofYh6CehcCt71M7hA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -809,11 +809,11 @@
       "url": "_framework\/Tu_Jardin_App.Shared.pdb"
     },
     {
-      "hash": "sha256-gqvUkLcj86txT5YjzVsUw+wNPIoDS2mbLGfbHupBh88=",
+      "hash": "sha256-DHHe2xd7faJFLF5s8l4\/8JtH0VSeal7D+q\/GGnyYReA=",
       "url": "_framework\/Tu_Jardin_App.Client.dll"
     },
     {
-      "hash": "sha256-AQj91QIVv39IAckmdIFlHtpIT6CXD3ew0rwrQakI05w=",
+      "hash": "sha256-5oi8\/UkeJ+NEeOzH7KTfyvWWPrW9ILMJ5SPn8P0TXtM=",
       "url": "_framework\/Tu_Jardin_App.Client.pdb"
     },
     {
@@ -1629,6 +1629,10 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
+      "hash": "sha256-I5Rtu\/ufH6nfmv3UtNemMNzYUUwKxFtOpHoobew2vdc=",
+      "url": "css\/Logros.css"
+    },
+    {
       "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
       "url": "css\/open-iconic\/FONT-LICENSE"
     },
@@ -1665,6 +1669,22 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
+      "hash": "sha256-1mrVaiQ2S+Cyhh9B8lm6RqeT\/kzRVLdV0WnDcOY3mDU=",
+      "url": "css\/plantas.css"
+    },
+    {
+      "hash": "sha256-qyqp3MwMoNSzo9dfXL8F8d9Wopm96zjSigCnZFA3x5M=",
+      "url": "css\/plantasusuario.css"
+    },
+    {
+      "hash": "sha256-VPFX6qOHr+ZHWQqqx51K9lyN+Pbum5HgXK0UcwLI\/KI=",
+      "url": "css\/selecciontipo.css"
+    },
+    {
+      "hash": "sha256-B2P97FGyu3raw73qNy4C7xse\/Lhac5jGoL6l7zAaMaE=",
+      "url": "css\/tipoplanta.css"
+    },
+    {
       "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "url": "favicon.ico"
     },
@@ -1673,7 +1693,99 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-3V8Hq8xt2IUaf2cB8eyBSfpjvbTwh8OjVsK3\/l9hQO0=",
+      "hash": "sha256-dgXVyIsua+rM7dt87SE7fwj2rG+xIDeFcMAa\/2EZFjU=",
+      "url": "images\/aromaticas\/eneldo.png"
+    },
+    {
+      "hash": "sha256-Ve\/h9g9PL+jOV5Cm4q2MfsTtlCbjdQxLnS+8m5T2vFA=",
+      "url": "images\/aromaticas\/romero.png"
+    },
+    {
+      "hash": "sha256-E31N9HrgHJDHRq7PKo5GXparj282FG53ouwAJciIrAU=",
+      "url": "images\/aromaticas\/salvia.png"
+    },
+    {
+      "hash": "sha256-TwCIpUtAZ5YOcZYQvokQ2YVzajeOsqHpd5k63kO\/SVc=",
+      "url": "images\/Aromáticas.png"
+    },
+    {
+      "hash": "sha256-celcRdh\/gGmTZQtmsbRFgOGifya4csRBtdAj0DEKWH8=",
+      "url": "images\/Cannabis.png"
+    },
+    {
+      "hash": "sha256-xIWPCForqZLDXLCkcfHQKWuLTEu6nQChxMls0OO9\/IE=",
+      "url": "images\/cannabis\/indica.png"
+    },
+    {
+      "hash": "sha256-T2fc+FZLPk+lPDE2yvSiSc2p3kBwZ8oPtvRphbWb2s0=",
+      "url": "images\/cannabis\/rudelaris.png"
+    },
+    {
+      "hash": "sha256-GdhQYqrP1SQHJUzYw5rWxZ1uAmdK\/525UvLHH1nxo18=",
+      "url": "images\/cannabis\/sativa.png"
+    },
+    {
+      "hash": "sha256-9Ahc7lBPmyBOR470o99xZCi7NFOBBWf7r4vyDhEbitg=",
+      "url": "images\/Condimentos.png"
+    },
+    {
+      "hash": "sha256-71K5\/atkpBl606JIuIqL6sbHD7BzAufnPes9BYUmoUU=",
+      "url": "images\/condimentos\/cilantro.png"
+    },
+    {
+      "hash": "sha256-NKjXBccJkQA\/\/e7wno\/beaYpYpsEOJw9JgxT\/qoaYB4=",
+      "url": "images\/condimentos\/oregano.png"
+    },
+    {
+      "hash": "sha256-NJjqlq\/MndOfJuWfIC+G6JlRKFn\/Vgi3VscDsSTqaPc=",
+      "url": "images\/condimentos\/perejil.png"
+    },
+    {
+      "hash": "sha256-YBpd3AuGrkFTFqsrN3f8VKRTulvnAFLRW9ztc6z9nxs=",
+      "url": "images\/Especiales.png"
+    },
+    {
+      "hash": "sha256-hszHi75paad3YzufiI7iYLyO8nfphxHJVX+PI+lCF\/4=",
+      "url": "images\/especiales\/aji.png"
+    },
+    {
+      "hash": "sha256-bPX8wZHRrOzTIQsP0gpSqIyGuCf2XjOrYD9XJRf++eY=",
+      "url": "images\/especiales\/rabanito.png"
+    },
+    {
+      "hash": "sha256-wO4b9S+Kc7C9q\/\/P\/kwHcoPiOV2SZiPNXVI4AzePLVo=",
+      "url": "images\/especiales\/tomatecherry.png"
+    },
+    {
+      "hash": "sha256-6JMcfYNl\/XdQ6WvKeFiMGHxcMXvS+DDT6m0vPfuT01I=",
+      "url": "images\/fondo.jpg"
+    },
+    {
+      "hash": "sha256-oDOgIMqv2cyfY0HDwnZerjw\/Vq\/aXCg8HAs2cCCRZ7g=",
+      "url": "images\/Medicinales.png"
+    },
+    {
+      "hash": "sha256-c7e63ep4bJ7Qs79DDGgfT9lYIchAnUluMjfjH3HRYgM=",
+      "url": "images\/medicinales\/manzanilla.png"
+    },
+    {
+      "hash": "sha256-dL+xpm1v3O0Gw2Z6Z5HfoP3zSgl3D5PLqaRB9tgS9Yk=",
+      "url": "images\/medicinales\/melissa.jpg"
+    },
+    {
+      "hash": "sha256-YDlNCHl0RJ\/MXVlvub5F5AGYKg7KtG7RILK3Fo4mKfk=",
+      "url": "images\/medicinales\/tomillo.jpg"
+    },
+    {
+      "hash": "sha256-U+vsR\/wUcNCFSAClZn0ba54BpMGHaMf4lyQFQt\/kbIk=",
+      "url": "images\/planta.PNG"
+    },
+    {
+      "hash": "sha256-t9lx3yreVrxgItd4FufQ0N6oJtToUAosdQXmXiVcrlw=",
+      "url": "images\/salvia.png"
+    },
+    {
+      "hash": "sha256-Yuq2RD0L\/iIDzW8oRARS76MYYkhty0AqomxcxODabng=",
       "url": "index.html"
     },
     {
@@ -1681,13 +1793,13 @@
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-P5ZIkVP48o0uwhWwJQRhjakOLnnMBKoA28t4n7NIWRY=",
+      "hash": "sha256-YMDGbr6FhH0SjMGJWte1Wb52jK3MP1cdZhkFQgNVNCU=",
       "url": "Tu_Jardin_App.Client.styles.css"
     },
     {
-      "hash": "sha256-u8C9KluHRuGrv7wPboph1aYTOetj4DO4iqzsaz9gB0I=",
+      "hash": "sha256-pvpQA68PZFSj2mWNBasyxzCL0wDmwuFldixY9Bblwm8=",
       "url": "Tu_Jardin_App.Client.bundle.scp.css"
     }
   ],
-  "version": "YOiadsRH"
+  "version": "8pXM8vTP"
 };

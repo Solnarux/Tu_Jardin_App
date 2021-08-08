@@ -1,0 +1,19 @@
+﻿.page-background-class {
+    background-image: url(../images/fondo.jpg);
+    background-position: top left;
+    height: 90vh;
+    width: 100%;
+    background-size: 100vh;
+    overflow: hidden;
+    display: block;
+}
+
+h2 {
+    font-size: 5vw;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 25vh;
+}
