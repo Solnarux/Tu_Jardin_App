@@ -37,6 +37,15 @@ h3 {
     padding-bottom: 25vh;
 }
 
+h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 25vh;
+}
 
 .agregar {
     background: white;

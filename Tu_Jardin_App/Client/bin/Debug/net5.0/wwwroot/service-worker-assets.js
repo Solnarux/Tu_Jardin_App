@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-lXIeNoecxuS5XCKa12qGlXg4pO3YrfS3EWMeZiI8+ME=",
+      "hash": "sha256-3nPQ+ioSuaOt6g3o8UFNU9s7aP\/NLYQD8jUb57l+BxA=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -801,19 +801,19 @@
       "url": "_framework\/dotnet.5.0.8.js"
     },
     {
-      "hash": "sha256-twEIXGPMTasz+1SYwMq+ANxgTIAWBbtpLnEKBPFfY3Y=",
+      "hash": "sha256-idkyoMTWib6MVqdWw9CWBxZgLiSc0Aq+DLt3CmcdIwk=",
       "url": "_framework\/Tu_Jardin_App.Shared.dll"
     },
     {
-      "hash": "sha256-zP8mNoK7hizo1zDPNphVaCHTDW0nzid9Ea8gz5KazTY=",
+      "hash": "sha256-dd2irhwmz7wC8uuVkP8zVwvozUmk0gWDuC0fb19forA=",
       "url": "_framework\/Tu_Jardin_App.Shared.pdb"
     },
     {
-      "hash": "sha256-RJ5gUPpwLW+GJm33qYSG0luHdfC980YhLbqN9++NF9E=",
+      "hash": "sha256-yYD+MnLSr1VfafkGI4aG0EBIReLdRiUNpkRyudCCwWE=",
       "url": "_framework\/Tu_Jardin_App.Client.dll"
     },
     {
-      "hash": "sha256-8PHxPjldXFDZR7S531RMF30aQ5sskYdyG+0MLKF3Skg=",
+      "hash": "sha256-0w\/7vkireaZueQIqnWvXeTyWFX0WzeH1ELjx0uw4IyM=",
       "url": "_framework\/Tu_Jardin_App.Client.pdb"
     },
     {
@@ -1613,7 +1613,7 @@
       "url": "_framework\/dotnet.5.0.8.js.gz"
     },
     {
-      "hash": "sha256-Cz\/v7rkMD8VbrA+ztVy0\/mfsPBu\/nqEzBPcx+hibmjw=",
+      "hash": "sha256-3deV2IXosjr6TmoLMM0G9QLAl+K1JPnjgI88cZPeH3E=",
       "url": "_framework\/Tu_Jardin_App.Shared.dll.gz"
     },
     {
@@ -1673,7 +1673,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-F5mfwjYlEzCUKRRly3o4poxhXiHvj7d6o63EfDeI0ng=",
+      "hash": "sha256-yPMg3MeE3VLCAN7SY\/t\/kDYio1jm\/2R8LxvXBkAq754=",
       "url": "css\/plantas.css"
     },
     {
@@ -1689,11 +1689,11 @@
       "url": "css\/tipoplanta.css"
     },
     {
-      "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "hash": "sha256-iwIpS6Tv\/hLGqnT8YJYhoHflGQ3lPPu+c6peoPbJTr8=",
       "url": "favicon.ico"
     },
     {
-      "hash": "sha256-IpHFcQvs03lh6W54zoeJRG1jW+VnGmwymzxLoXtKX7Y=",
+      "hash": "sha256-s28jGRGXJFHMirB99r9wm9JYeKutP\/NWAY7P6KTr2Ms=",
       "url": "icon-512.png"
     },
     {
@@ -1845,5 +1845,5 @@
       "url": "Tu_Jardin_App.Client.bundle.scp.css"
     }
   ],
-  "version": "7\/RnIldp"
+  "version": "oNY8pbui"
 };

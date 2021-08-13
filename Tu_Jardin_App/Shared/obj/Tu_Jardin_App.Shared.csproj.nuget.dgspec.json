@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\jardin_app\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {}
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\jardin_app\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\jardin_app\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
         "projectName": "Tu_Jardin_App.Shared",
-        "projectPath": "C:\\Users\\user\\Desktop\\jardin_app\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\jardin_app\\Tu_Jardin_App\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
+        "packagesPath": "C:\\Users\\solna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\solna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

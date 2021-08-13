@@ -21,3 +21,15 @@ C:\Users\user\Desktop\jardin_app\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin
 C:\Users\user\Desktop\jardin_app\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.dll
 C:\Users\user\Desktop\jardin_app\Tu_Jardin_App\Shared\obj\Debug\net5.0\ref\Tu_Jardin_App.Shared.dll
 C:\Users\user\Desktop\jardin_app\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.pdb
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.deps.json
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.dll
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\ref\Tu_Jardin_App.Shared.dll
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\bin\Debug\net5.0\Tu_Jardin_App.Shared.pdb
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.csproj.AssemblyReference.cache
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.AssemblyInfoInputs.cache
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.AssemblyInfo.cs
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.csproj.CoreCompileInputs.cache
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.dll
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\ref\Tu_Jardin_App.Shared.dll
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Shared\obj\Debug\net5.0\Tu_Jardin_App.Shared.pdb
