@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
+    "",
     "\\Tu_Jardin_App",
     "\\Tu_Jardin_App\\Client",
-    "\\Tu_Jardin_App\\Client\\obj"
+    "\\Tu_Jardin_App\\Client\\obj",
+    "\\Tu_Jardin_App\\Client\\Pages"
   ],
   "PreviewInSolutionExplorer": false
 }

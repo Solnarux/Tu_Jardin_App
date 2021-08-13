@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-9chc73iec\/f4y9Ty2SjoUjtU6xofYh6CehcCt71M7hA=",
+      "hash": "sha256-lXIeNoecxuS5XCKa12qGlXg4pO3YrfS3EWMeZiI8+ME=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -801,19 +801,19 @@
       "url": "_framework\/dotnet.5.0.8.js"
     },
     {
-      "hash": "sha256-Mim1c3bPwZFIYVp0ClAIrE8U2XVTOj5tIZzyYFnu9Kw=",
+      "hash": "sha256-twEIXGPMTasz+1SYwMq+ANxgTIAWBbtpLnEKBPFfY3Y=",
       "url": "_framework\/Tu_Jardin_App.Shared.dll"
     },
     {
-      "hash": "sha256-vDOWZ1CFY5eA2Sy4qMC+\/IQlUgX7Yu7+Qc\/0HZfv1GQ=",
+      "hash": "sha256-zP8mNoK7hizo1zDPNphVaCHTDW0nzid9Ea8gz5KazTY=",
       "url": "_framework\/Tu_Jardin_App.Shared.pdb"
     },
     {
-      "hash": "sha256-DHHe2xd7faJFLF5s8l4\/8JtH0VSeal7D+q\/GGnyYReA=",
+      "hash": "sha256-RJ5gUPpwLW+GJm33qYSG0luHdfC980YhLbqN9++NF9E=",
       "url": "_framework\/Tu_Jardin_App.Client.dll"
     },
     {
-      "hash": "sha256-5oi8\/UkeJ+NEeOzH7KTfyvWWPrW9ILMJ5SPn8P0TXtM=",
+      "hash": "sha256-8PHxPjldXFDZR7S531RMF30aQ5sskYdyG+0MLKF3Skg=",
       "url": "_framework\/Tu_Jardin_App.Client.pdb"
     },
     {
@@ -1613,7 +1613,7 @@
       "url": "_framework\/dotnet.5.0.8.js.gz"
     },
     {
-      "hash": "sha256-dh6bPG53125ZilhRviZzG8BdxmkDbYlOJ4qieFpGu9Y=",
+      "hash": "sha256-Cz\/v7rkMD8VbrA+ztVy0\/mfsPBu\/nqEzBPcx+hibmjw=",
       "url": "_framework\/Tu_Jardin_App.Shared.dll.gz"
     },
     {
@@ -1629,8 +1629,12 @@
       "url": "css\/bootstrap\/bootstrap.min.css.map"
     },
     {
+      "hash": "sha256-4d0HLyxpcT+8bxfpPnJOdpryo70ctgUGi25uj13JCww=",
+      "url": "css\/logro.css"
+    },
+    {
       "hash": "sha256-I5Rtu\/ufH6nfmv3UtNemMNzYUUwKxFtOpHoobew2vdc=",
-      "url": "css\/Logros.css"
+      "url": "css\/logros.css"
     },
     {
       "hash": "sha256-jA4J4h\/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
@@ -1669,19 +1673,19 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-1mrVaiQ2S+Cyhh9B8lm6RqeT\/kzRVLdV0WnDcOY3mDU=",
+      "hash": "sha256-F5mfwjYlEzCUKRRly3o4poxhXiHvj7d6o63EfDeI0ng=",
       "url": "css\/plantas.css"
     },
     {
-      "hash": "sha256-qyqp3MwMoNSzo9dfXL8F8d9Wopm96zjSigCnZFA3x5M=",
+      "hash": "sha256-145XQA3lBUBa\/7VCC6wgQH54vcy7GeE1JL\/4SEEM9D8=",
       "url": "css\/plantasusuario.css"
     },
     {
-      "hash": "sha256-VPFX6qOHr+ZHWQqqx51K9lyN+Pbum5HgXK0UcwLI\/KI=",
+      "hash": "sha256-badH4A9NR1cW715v0RovxyxxLtJihvXW6a3SAvo7UXg=",
       "url": "css\/selecciontipo.css"
     },
     {
-      "hash": "sha256-B2P97FGyu3raw73qNy4C7xse\/Lhac5jGoL6l7zAaMaE=",
+      "hash": "sha256-Q5VZiBhTpI1WfD0BsDq5YCV8aPw0FUH5Wac6qzKgb6Q=",
       "url": "css\/tipoplanta.css"
     },
     {
@@ -1761,6 +1765,46 @@
       "url": "images\/fondo.jpg"
     },
     {
+      "hash": "sha256-qVm5o+ubsa\/Y2bjOJzvwa92e9UVYKWjvJcatHrsrFwQ=",
+      "url": "images\/logros\/agricultor.png"
+    },
+    {
+      "hash": "sha256-SqM32UQbekn2v3jCfCdmIyKKiAU1U+Tj1XOilQmh3Fo=",
+      "url": "images\/logros\/cosecha.png"
+    },
+    {
+      "hash": "sha256-avAign7byvRz7HLL39CJ67Q4cJJkoShFDOkgwHdvCxQ=",
+      "url": "images\/logros\/guardabosques.png"
+    },
+    {
+      "hash": "sha256-l0NCqrZn7EPQoyu3Z6AG4Ydtj0OYohC8bKvqps5D8ks=",
+      "url": "images\/logros\/hermitano.png"
+    },
+    {
+      "hash": "sha256-\/2wsM7OO4qwNGdJZkfeqv8jVqrQqcQia1bsbChs88\/U=",
+      "url": "images\/logros\/jardin.png"
+    },
+    {
+      "hash": "sha256-lUqD5tFUE6y8GxZ+BjBqEKPY6q12zs76+NS8J2Eh4mg=",
+      "url": "images\/logros\/jardinero.png"
+    },
+    {
+      "hash": "sha256-YZwqxubNm2bDfPfYcvhCUCLwuSXJl6WlrG+XSgLLgnY=",
+      "url": "images\/logros\/lluvia.png"
+    },
+    {
+      "hash": "sha256-TyA5wo\/nmgtf92AIFHuQB8Vt9aKFygbiUCCbqRQ1pOc=",
+      "url": "images\/logros\/riego.png"
+    },
+    {
+      "hash": "sha256-PyPBDyA4mF\/vmdNBcHa0wk2cAOochbrZHx7gpUH2pZc=",
+      "url": "images\/logros\/semillero.png"
+    },
+    {
+      "hash": "sha256-tTeazirTRYi0wv3pUSi54snC4xIGLjYNHdiOnf0V\/FA=",
+      "url": "images\/logros\/vida.png"
+    },
+    {
       "hash": "sha256-oDOgIMqv2cyfY0HDwnZerjw\/Vq\/aXCg8HAs2cCCRZ7g=",
       "url": "images\/Medicinales.png"
     },
@@ -1801,5 +1845,5 @@
       "url": "Tu_Jardin_App.Client.bundle.scp.css"
     }
   ],
-  "version": "8pXM8vTP"
+  "version": "7\/RnIldp"
 };
