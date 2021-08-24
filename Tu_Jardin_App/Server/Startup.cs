@@ -67,6 +67,7 @@ namespace Tu_Jardin_App.Server
 
             app.UseRouting();
 
+
             app.UseIdentityServer();
             app.UseAuthentication();
             app.UseAuthorization();

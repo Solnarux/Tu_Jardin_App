@@ -1,0 +1,28 @@
+﻿@page "/Editar/nombre"
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/editarnombre.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4>Cambiar Nombre</h4>
+
+        <form action="/cuenta">
+            <table>
+                <tr>
+                    <td><p class="info" style="text-align: right; margin-right: 1vw;">Nuevo nombre</p></td>
+                    <td><input type="text" placeholder="Nombre" style="width: 100%;"></td>
+                </tr>
+                <tr>
+                    <td><input class="boton" style="width: 10vw;" type="submit" value="Guardar" /></td>
+                    <td> <a href="/cuenta"><input class="boton" style="width: 10vw;" type="button" value="Salir" /> </a> </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+@code {
+
+}
