@@ -1,0 +1,25 @@
+﻿@page "/prueba/{id:int}"
+@inject IPlantService PlantService
+
+<h3>Planta</h3>
+<p> @planta.Name</p>
+<p> @planta.Type</p>
+<p> @planta.Seeddate</p>
+<img src="@planta.Img" />
+<p> @planta.Owner</p>
+
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    Plant planta = new Plant();
+
+    protected override async Task OnInitializedAsync()
+    {
+        planta = await PlantService.GetPlant(id);
+    }
+
+}
+

@@ -1,0 +1,58 @@
+﻿@inject IPlantService PlantService
+
+
+<h3>Prueba3</h3>
+
+<EditForm Model="plant" OnSubmit="HandleSubmit">
+    <div class="form-control">
+        <label for="name">Nombre: </label>
+        <InputText id="name" @bind-Value="plant.Name"></InputText>
+    </div>
+    <br />
+    <div class="form-control">
+        <label for="type">Tipo: </label>
+        <InputText id="type" @bind-Value="plant.Type"></InputText>
+    </div>
+    <br />
+    <div class="form-control">
+        <label for="date">Fecha: </label>
+        <InputDate id="date" @bind-Value="plant.Seeddate"></InputDate>
+    </div>
+    <br />
+    <div class="form-control">
+        <label for="img">Imagen: </label>
+        <InputText id="img" @bind-Value="plant.Img"></InputText>
+    </div>
+    <br />
+    <div class="form-control">
+        <label for="owner">Usuario: </label>
+        <InputText id="owner" @bind-Value="plant.Owner"></InputText>
+    </div>
+    <br />
+    <div>
+        <button class="btn btn-primary" type="submit"> Save </button>
+    </div>
+</EditForm>
+
+@code {
+
+    [Parameter]
+    public Plant plant { get; set; } = new Plant();
+
+    async void HandleSubmit()
+    {
+        plant.Achievements = null;
+        plant.AchievementsId = 1;
+
+        if(plant.Id == 0)
+        {
+            await PlantService.CreatePlant(plant);
+        }
+        else
+        {
+            await PlantService.UpdatePlant(plant, plant.Id);
+        }
+
+    }
+
+}

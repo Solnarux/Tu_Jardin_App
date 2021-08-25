@@ -1,0 +1,26 @@
+﻿@page "/prueba/logros"
+@inject IPlantService PlantService
+
+<h3>Prueba 4</h3>
+
+@foreach (var p in PlantService.achieves)
+            {
+                <p>
+                    @p.Agricultor
+                    @p.Cosecha
+                    @p.Riego
+                </p>
+            }
+
+
+@code {
+
+
+    protected override async Task OnInitializedAsync()
+    {
+       await PlantService.GetAchieves();
+
+    }
+
+
+}

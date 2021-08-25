@@ -1075,7 +1075,6 @@ C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debu
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Tu_Jardin_App.Client.RazorComponent.input.cache
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication.razor.g.cs
-C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cuenta.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Recordatorios.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
@@ -1091,7 +1090,6 @@ C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debu
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Tu_Jardin_App.Client.RazorCoreGenerate.cache
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Authentication.razor.g.cs
-C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Recordatorios.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Shared\LoginDisplay.razor.g.cs
@@ -2097,8 +2095,6 @@ C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debu
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Plantas\TipoCondimentos.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Plantas\TipoEspeciales.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Plantas\TipoMedicinales.razor.g.cs
-C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\b1vJTECV.gz
-C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\ahCYLOUp.gz
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\bin\Debug\net5.0\Tu_Jardin_App.Client.StaticWebAssets.xml
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\bin\Debug\net5.0\Tu_Jardin_App.Client.dll
@@ -2822,3 +2818,17 @@ C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta1\Perfil.razor.g.cs
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cuenta1\EditarNombre.razor.g.cs
 C:\Users\laura\Source\Repos\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta1\EditarNombre.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Prueba.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Prueba.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Prueba2.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Prueba2.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Prueba3.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Prueba3.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Prueba4.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Prueba4.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cuenta\EditarNombre.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cuenta\Perfil.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta\EditarNombre.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta\Perfil.razor.g.cs
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\BcnqJeCW.gz
+C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\Pitvy0Vl.gz

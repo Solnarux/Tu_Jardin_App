@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Tu_Jardin_App.Client.Services;
 
 namespace Tu_Jardin_App.Client
 {
@@ -23,7 +24,7 @@ namespace Tu_Jardin_App.Client
 
             // Supply HttpClient instances that include access tokens when making requests to the server project
             builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("Tu_Jardin_App.ServerAPI"));
-
+            builder.Services.AddScoped<IPlantService, PlantService>();
             builder.Services.AddApiAuthorization();
 
             await builder.Build().RunAsync();
