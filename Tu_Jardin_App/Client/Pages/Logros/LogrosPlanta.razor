@@ -1,0 +1,68 @@
+﻿@page "/logros/{id:int}"
+@inject IPlantService PlantService
+<link href="/css/plantas.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <h3>Logros @planta.Type</h3>
+    <table>
+        <tr>
+            <th class="caja">
+                <a href="/logros/@planta.Id/semillero"><img class="imagen" src="/images/logros/semillero.png" /></a>
+                <p class="texto">Semillero</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/jardin"><img class="imagen" src="/images/logros/jardin.png" /></a>
+                <p class="texto">Jardin</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/vida"><img class="imagen" src="/images/logros/vida.png" /></a>
+                <p class="texto">Vida</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/guardabosques"><img class="imagen" src="/images/logros/guardabosques.png" /></a>
+                <p class="texto">Guardabosques</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/hermitano"><img class="imagen" src="/images/logros/hermitano.png" /></a>
+                <p class="texto">Hermitaño</p>
+            </th>
+        </tr>
+        <tr>
+            <th class="caja">
+                <a href="/logros/@planta.Id/riego"><img class="imagen" src="/images/logros/riego.png" /></a>
+                <p class="texto">Riego</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/lluvia"><img class="imagen" src="/images/logros/lluvia.png" /></a>
+                <p class="texto">Lluvia</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/jardinero"><img class="imagen" src="/images/logros/jardinero.png" /></a>
+                <p class="texto">Jardinero</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/cosecha"><img class="imagen" src="/images/logros/cosecha.png" /></a>
+                <p class="texto">Cosecha</p>
+            </th>
+            <th class="caja">
+                <a href="/logros/@planta.Id/agricultor"><img class="imagen" src="/images/logros/agricultor.png" /></a>
+                <p class="texto">Agricultor</p>
+            </th>
+        </tr>
+    </table>
+
+</div>
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    Plant planta = new Plant();
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        planta = await PlantService.GetPlant(id);
+    }
+}

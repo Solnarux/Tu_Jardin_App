@@ -1,0 +1,87 @@
+﻿@page "/logros/{id:int}/lluvia"
+@inject IPlantService PlantService
+
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+<link href="/css/logro.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    @if (planta.Achievements == null)
+    {
+
+        <div class="usuariocard">
+            <h4> Loading... </h4>
+        </div>
+
+    }
+    else
+    {
+        <div class="usuariocard">
+            <h4> Lluvia </h4>
+            <img src="/images/logros/lluvia.png" class="imagen" />
+            <p class="info">XP: <u>800</u></p>
+            <p class="info">Riega tu planta por un mes</p>
+
+            <div class="center">
+                @if (!planta.Achievements.Lluvia)
+                {
+
+                    <a href="/logros/@planta.Id" class="btn btn-success" style="width: 20vw" @onclick="()=>HandleCompletition(planta.Id)"> Completar </a>
+                }
+                else
+                {
+                    <a href="/logros/@planta.Id" class="btn btn-outline-success" style="width: 20vw" @onclick="()=>HandleIncompletition(planta.Id)"> Completado </a>
+                }
+                <br />
+                <br />
+                <a href="/logros/@planta.Id" class="btn btn-success" style="width: 20vw"> Volver </a>
+            </div>
+        </div>
+    }
+
+</div>
+
+@code {
+
+    [CascadingParameter]
+    public Task<AuthenticationState> _authstate { get; set; }
+
+    [Parameter]
+    public int id { get; set; }
+
+    public AuthenticationState authstate { get; set; }
+
+    User user = new User();
+
+    Plant planta = new Plant();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authstate = await _authstate;
+
+        user = await PlantService.GetUser(authstate.User.Identity.Name);
+
+        planta = await PlantService.GetPlant(id);
+    }
+
+    async void HandleCompletition(int id)
+    {
+
+        planta.Achievements.Lluvia = true;
+        user.Points += 800;
+
+        await PlantService.UpdateUser(user, user.Email);
+
+        await PlantService.UpdateAchieve(planta.Achievements, planta.AchievementsId);
+
+    }
+
+    async void HandleIncompletition(int id)
+    {
+        planta.Achievements.Lluvia = false;
+        user.Points -= 800;
+
+        await PlantService.UpdateUser(user, user.Email);
+
+        await PlantService.UpdateAchieve(planta.Achievements, planta.AchievementsId);
+    }
+}

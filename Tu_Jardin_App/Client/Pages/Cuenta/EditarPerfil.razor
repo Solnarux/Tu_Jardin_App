@@ -1,0 +1,77 @@
+﻿@page "/cuenta/edit/{email}"
+@inject IPlantService PlantService
+@inject NavigationManager NavigationManager
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/editarnombre.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4>Editar perfil</h4>
+        <table>
+            <tr>
+                <td><p class="info" style="text-align: right; margin-right: 1vw;">Nombre:</p></td>
+                <td><input type="text" placeholder="Nombre" style="width: 100%;" @bind-value="@user.UserName"></td>
+            </tr>
+            <tr>
+                <td><p class="info" style="text-align: right; margin-right: 1vw;">Imagen:</p></td>
+                <td style="text-align: center;" ><a href="/cuenta/edit/@user.Email/imagen" > <img src="@user.Img"  style="width: 100px; height: 100px;"> </a></td>
+
+            </tr>
+            <tr>
+                <td> <a href="/cuenta" class="btn btn-success" style="width: 10vw" @onclick="()=>HandleUpdate(user.Email)">Editar</a></td>
+
+                <td> <a href="/cuenta" class="btn btn-success" style="width: 10vw"> Salir </a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string email { get; set; }
+
+    User user = new User();
+
+    public string Img { get; set; }
+
+    public string oldus { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        user = await PlantService.GetUser(email);
+
+        oldus = user.UserName;
+
+        StringValues Imagen;
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Img", out Imagen))
+        {
+            Img = Imagen;
+
+        }
+
+        user.Img = Img;
+
+    }
+
+    async void HandleUpdate(string email)
+    {
+        await PlantService.UpdateUser(user, email);
+
+        foreach (var p in PlantService.plants)
+        {
+            if(p.Owner == oldus)
+            {
+                p.Owner = user.UserName;
+                await PlantService.UpdatePlant(p, p.Id);
+            }
+        }
+
+        await PlantService.GetPlants();
+
+    }
+
+}

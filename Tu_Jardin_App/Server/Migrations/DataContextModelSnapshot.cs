@@ -101,6 +101,9 @@ namespace Tu_Jardin_App.Server.Migrations
                     b.Property<int>("AchievementsId")
                         .HasColumnType("int");
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Img")
                         .HasColumnType("nvarchar(max)");
 
@@ -127,21 +130,70 @@ namespace Tu_Jardin_App.Server.Migrations
                         {
                             Id = 1,
                             AchievementsId = 1,
+                            Email = "estebanlopezb2010@gmail.com",
                             Img = "/images/Aromáticas.png",
                             Name = "Jesus",
                             Owner = "David Herrera",
-                            Seeddate = new DateTime(2021, 8, 25, 11, 53, 23, 357, DateTimeKind.Local).AddTicks(4578),
+                            Seeddate = new DateTime(2021, 8, 30, 14, 52, 4, 851, DateTimeKind.Local).AddTicks(4392),
                             Type = "Salvia"
                         },
                         new
                         {
                             Id = 2,
                             AchievementsId = 2,
+                            Email = "estebanlopezb2010@gmail.com",
                             Img = "/images/Cannabis.png",
                             Name = "Alberto",
                             Owner = "David Herrera",
-                            Seeddate = new DateTime(2021, 8, 25, 11, 53, 23, 357, DateTimeKind.Local).AddTicks(8685),
+                            Seeddate = new DateTime(2021, 8, 30, 14, 52, 4, 851, DateTimeKind.Local).AddTicks(8003),
                             Type = "Cannabis Indica"
+                        });
+                });
+
+            modelBuilder.Entity("Tu_Jardin_App.Shared.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Img")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Plants")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Points")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "test@gmail.com",
+                            Img = "/images/logros/agricultor.png",
+                            Plants = 2,
+                            Points = 230,
+                            UserName = "Dave Herrera"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "test2@gmail.com",
+                            Img = "/images/logros/guardabosques.png",
+                            Plants = 3,
+                            Points = 150,
+                            UserName = "Solnarux"
                         });
                 });
 

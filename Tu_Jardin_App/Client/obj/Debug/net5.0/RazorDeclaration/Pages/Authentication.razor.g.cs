@@ -70,35 +70,56 @@ using Microsoft.AspNetCore.Components.WebAssembly.Http;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.WebUtilities;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client;
+using Microsoft.Extensions.Primitives;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 11 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client.Shared;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 12 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client.Services;
+using Tu_Jardin_App.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 13 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Client.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Shared.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Shared;
 
 #line default
 #line hidden
@@ -119,13 +140,14 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 5 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\Pages\Authentication.razor"
+#line 12 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\Pages\Authentication.razor"
       
     [Parameter] public string Action { get; set; }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
     }
 }
 #pragma warning restore 1591

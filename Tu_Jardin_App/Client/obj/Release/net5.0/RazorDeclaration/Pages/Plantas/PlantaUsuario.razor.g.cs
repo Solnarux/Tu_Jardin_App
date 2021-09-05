@@ -13,97 +13,111 @@ namespace Tu_Jardin_App.Client.Pages.Plantas
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 1 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 2 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 3 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 4 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 5 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 6 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 7 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 8 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 9 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Microsoft.AspNetCore.WebUtilities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 10 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Microsoft.Extensions.Primitives;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 12 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 13 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 14 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Client.Services;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+#line 15 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Shared.Models;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/plantas/usuario")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/plantas/{id:int}")]
     public partial class PlantaUsuario : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -111,6 +125,33 @@ using Tu_Jardin_App.Shared.Models;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 31 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\Pages\Plantas\PlantaUsuario.razor"
+       
+
+    [Parameter]
+    public int id { get; set; }
+
+    Plant planta = new Plant();
+
+    void EditPlant(int id)
+    {
+        NavigationManager.NavigateTo($"/plantas/{id}/edit");
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        planta = await PlantService.GetPlant(id);
+    }
+
+    
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IPlantService PlantService { get; set; }
     }
 }
 #pragma warning restore 1591

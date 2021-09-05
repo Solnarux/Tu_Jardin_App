@@ -20,6 +20,8 @@ namespace Tu_Jardin_App.Shared.Models
 
         public string Owner { get; set; }
 
+        public string Email { get; set; }
+
         public Achieve Achievements { get; set; }
 
         public int AchievementsId { get; set; }

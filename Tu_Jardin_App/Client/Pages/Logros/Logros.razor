@@ -1,0 +1,65 @@
+﻿@page "/logros"
+@inject IPlantService PlantService
+
+
+    <link href="/css/plantas.css" rel="stylesheet" />
+
+    <div class="page-background-class">
+
+        <h3>Logros</h3>
+
+        <table>
+            <tr>
+                @foreach (var p in PlantService.plants)
+                {
+                    @if (p.Email == user.Email)
+                    {
+                        count++;
+
+                        <th class="caja">
+                            <a href="/logros/@p.Id"><img class="imagen" src="@p.Img" /></a>
+                            <p class="texto">@p.Type</p>
+                        </th>
+                    }
+                }
+
+                @if(count == 0)
+            {
+                <th>
+                    <p class="texto" style="font-size: x-large;">Parece que no tienes ninguna planta.
+                    Prueba agregando una en el menú plantas.</p>
+                </th>
+            }
+
+            </tr>
+        </table>
+
+    </div>
+
+    
+
+    @code {
+
+        [CascadingParameter]
+        public Task<AuthenticationState> _authState { get; set; }
+
+        public AuthenticationState authState { get; set; }
+
+        User user = new User();
+
+        public int count { get; set; }
+
+        protected override async Task OnInitializedAsync()
+        {
+            count = 0;
+
+            authState = await _authState;
+
+            user = await PlantService.GetUser(authState.User.Identity.Name);
+
+            await PlantService.GetPlants();
+
+        }
+
+     
+}

@@ -2,6 +2,6 @@
   <ContentRoot BasePath="/" Path="C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\bin\Debug\net5.0\wwwroot\" />
   <ContentRoot BasePath="/" Path="C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\scopedcss\bundle\" />
   <ContentRoot BasePath="/" Path="C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\wwwroot\" />
-  <ContentRoot BasePath="/Identity" Path="C:\Users\solna\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.6\staticwebassets\V4\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\solna\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.8\staticwebassets\V4\" />
   <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\solna\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\5.0.6\build\..\staticwebassets\" />
 </StaticWebAssets>

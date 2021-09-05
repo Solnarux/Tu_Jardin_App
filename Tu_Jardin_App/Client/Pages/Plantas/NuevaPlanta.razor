@@ -1,0 +1,105 @@
+﻿@page "/plantas/nueva"
+@inject IPlantService PlantService
+@inject NavigationManager NavigationManager
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> Añadir Plantas </h4>
+        <EditForm Model="plant" OnSubmit="HandleSubmit">
+
+            <table>
+                <tr>
+                    <td><p class="info" style="text-align: right; margin-right: 1vw;">Nombre: </p></td>
+                    <td><input type="text" placeholder="@plant.Name" style="width: 100%;" @bind-value="@plant.Name"></td>
+                </tr>
+                <tr>
+                    <td><p class="info" style="text-align: right; margin-right: 1vw;">Sembrada en: </p></td>
+                    <td><input type="date" placeholder="@DateTime.Now" style="width: 100%;" @bind-value="@plant.Seeddate"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn btn-success" style="width: 10vw;" type="submit" value="Crear" /></td>
+
+                    <td><a href="/plantas" class="btn btn-success" style="width: 10vw"> Cancelar </a></td>
+
+                </tr>
+            </table>
+
+        </EditForm>
+
+    </div>
+</div>
+
+@code {
+
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
+
+    private AuthenticationState authState;
+
+    public Plant plant = new Plant();
+
+
+    public string Type { get; set; }
+
+    public string Img { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+
+
+        authState = await _authState;
+
+        plant.Seeddate = DateTime.Now;
+
+        StringValues Tipo;
+        StringValues Imagen;
+        var uri = NavigationManager.ToAbsoluteUri(NavigationManager.Uri);
+
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Tipo", out Tipo))
+        {
+            Type = Tipo;
+
+        }
+
+        if (QueryHelpers.ParseQuery(uri.Query).TryGetValue("Img", out Imagen))
+        {
+            Img = Imagen;
+
+        }
+
+        plant.Type = Type;
+        plant.Img = Img;
+
+        
+
+    }
+
+    async void HandleSubmit()
+    {
+
+        User user = await PlantService.GetUser(authState.User.Identity.Name);
+
+        user.Plants += 1;
+
+        Achieve achieve = new Achieve();
+
+        plant.Owner = user.UserName;
+
+        plant.Email = user.Email;
+
+        plant.Achievements = achieve;
+
+        await PlantService.CreatePlant(plant);
+
+        await PlantService.UpdateUser(user, user.Email);
+
+        NavigationManager.NavigateTo("/plantas");
+
+
+
+    }
+
+}

@@ -1,15 +1,78 @@
 ﻿@page "/"
+@inject IPlantService PlantService
 
 <link href="/css/plantas.css" rel="stylesheet"/>
 
 <div class="page-background-class">
     
-    <h2>Bienvenido a Tu Jardín App</h2>
+    <h3>Bienvenido a Tu Jardín App</h3>
 
     <AuthorizeView>
-        <h2>Bienvenido, @context.User.Identity.Name</h2>
+        <Authorized>
+            @if (user.UserName == null)
+            {
+                <h2>Loading...</h2>
+            }
+            else
+            {
+                <h2>Bienvenido/a, @user.UserName</h2>
+            }
+        </Authorized>
+
+        <NotAuthorized>
+           
+            <h2>Aún no has iniciado sesión. <br />
+            Prueba iniciando sesión o registrandote en el menú de arriba.</h2>
+            
+
+
+        </NotAuthorized>
+
+
     </AuthorizeView>
+
+
+
 </div>
+
+@code{
+
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
+
+    public AuthenticationState authState { get; set; }
+
+    User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authState = await _authState;
+
+        if (authState.User.Identity.IsAuthenticated)
+        {
+
+            try
+            {
+                user = await PlantService.GetUser(authState.User.Identity.Name);
+            }
+            catch (Exception)
+            {
+                user.Email = authState.User.Identity.Name;
+
+                user.UserName = user.Email;
+
+                user.Img = "/images/Perfil/ImageUsuario.png";
+
+                await PlantService.CreateUser(user);
+
+                user = await PlantService.GetUser(user.Email);
+            }
+        }
+    }
+
+
+}
+
 
 
 

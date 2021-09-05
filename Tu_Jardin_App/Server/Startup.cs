@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using System.Linq;
 using Tu_Jardin_App.Server.Data;
 using Tu_Jardin_App.Server.Models;
+using Tu_Jardin_App.Server.Services;
 
 namespace Tu_Jardin_App.Server
 {
@@ -44,6 +46,9 @@ namespace Tu_Jardin_App.Server
             services.AddAuthentication()
                 .AddIdentityServerJwt();
 
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.Configure<AuthMessageSenderOptions>(Configuration);
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
@@ -56,6 +61,7 @@ namespace Tu_Jardin_App.Server
                 app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
                 app.UseWebAssemblyDebugging();
+                app.UseBrowserLink();
             }
             else
             {

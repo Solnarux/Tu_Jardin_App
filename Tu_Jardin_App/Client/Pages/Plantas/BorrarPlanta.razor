@@ -1,0 +1,62 @@
+﻿@page "/plantas/{id:int}/delete"
+@inject IPlantService PlantService
+@inject NavigationManager NavigationManager
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> ¿Desea eliminar @plant.Type? </h4>
+
+
+            <table>
+                <tr>
+                    <td><a href="/plantas" class="btn btn-success" style="width: 10vw" @onclick="()=>DeletePlant(plant.Id)"> Eliminar </a></td>
+
+                    <td><a href="/plantas/@plant.Id" class="btn btn-success" style="width: 10vw"> Cancelar </a></td>
+
+                </tr>
+            </table>
+
+
+
+    </div>
+</div>
+
+@code {
+
+    [CascadingParameter]
+    public Task<AuthenticationState> _authstate { get; set; }
+
+    [Parameter]
+    public int id { get; set; }
+
+    public AuthenticationState authstate { get; set; }
+
+    Plant plant = new Plant();
+
+    User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authstate = await _authstate;
+
+        plant = await PlantService.GetPlant(id);
+    }
+
+    async void DeletePlant(int id)
+    {
+        await PlantService.DeleteAchieve(plant.AchievementsId);
+
+        await PlantService.GetPlants();
+
+        user = await PlantService.GetUser(authstate.User.Identity.Name);
+
+        user.Plants -= 1;
+
+        await PlantService.UpdateUser(user, user.Email);
+
+    }
+
+}

@@ -1,0 +1,57 @@
+﻿@page "/plantas/{id:int}/edit"
+@inject IPlantService PlantService
+@inject NavigationManager NavigationManager
+
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+<link href="/css/plantas.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> Editar @plant.Name </h4>
+
+        <EditForm Model="plant" OnSubmit="HandleSubmit">
+            
+                <table>
+                    <tr>
+                        <td><p class="info" style="text-align: right; margin-right: 1vw;">Nombre: </p></td>
+                        <td><input type="text" placeholder="@plant.Name" style="width: 100%;" @bind-value="@plant.Name"></td>
+                    </tr>
+                    <tr>
+                        <td><p class="info" style="text-align: right; margin-right: 1vw;">Sembrada en: </p></td>
+                        <td><input type="date" placeholder="@plant.Seeddate" style="width: 100%;" @bind-value="@plant.Seeddate"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="btn btn-success" style="width: 10vw;" type="submit" value="Crear" /></td>
+
+                        <td><a href="/plantas/@plant.Id" class="btn btn-success" style="width: 10vw"> Cancelar </a></td>
+                    </tr>
+                </table>
+            
+        </EditForm>
+
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    [Parameter]
+    public Plant plant { get; set; } = new Plant();
+
+    protected override async Task OnInitializedAsync()
+    {
+        plant = await PlantService.GetPlant(id);
+    }
+
+    async void HandleSubmit()
+    {
+
+        await PlantService.UpdatePlant(plant, plant.Id);
+
+        await PlantService.GetPlants();
+
+        NavigationManager.NavigateTo("/plantas");
+    }
+}

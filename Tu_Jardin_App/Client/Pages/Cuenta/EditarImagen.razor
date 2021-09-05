@@ -1,0 +1,33 @@
+﻿@page "/cuenta/edit/{email}/imagen"
+
+<link href="/css/plantas.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <h3>Escoge Imagen</h3>
+    <table>
+        <tr>
+            <th class="caja">
+                <a href="/cuenta/edit/@email?Img=/images/Perfil/fAgriJoven.png"><img class="imagen" src="/images/Perfil/fAgriJoven.png" /></a>
+            </th>
+            <th class="caja">
+                <a href="/cuenta/edit/@email?Img=/images/Perfil/mAgriJoven.png"><img class="imagen" src="/images/Perfil/mAgriJoven.png" /></a>
+            </th>
+            <th class="caja">
+                <a href="/cuenta/edit/@email?Img=/images/Perfil/fAgriMayor.png"><img class="imagen" src="/images/Perfil/fAgriMayor.png" /></a>
+            </th>
+            <th class="caja">
+                <a href="/cuenta/edit/@email?Img=/images/Perfil/mAgriMayor.png"><img class="imagen" src="/images/Perfil/mAgriMayor.png" /></a>
+            </th>
+            <th class="caja">
+                <a href="/cuenta/edit/@email?Img=/images/Perfil/ImageUsuario.png"><img class="imagen" src="/images/Perfil/ImageUsuario.png" /></a>
+            </th>
+        </tr>
+    </table>
+
+</div>
+
+@code {
+
+    [Parameter]
+    public string email { get; set; }
+}

@@ -1,4 +1,5 @@
 ﻿@page "/plantas"
+@inject IPlantService PlantService
 
 <link href="/css/plantas.css" rel="stylesheet" />
 
@@ -7,17 +8,21 @@
 
     <table>
         <tr>
-            <th class="caja"> 
-                <a href="/plantas/usuario"><img class="imagen" src="/images/aromaticas/salvia.png" /></a> 
-                <p class="texto">Salvia</p>
-            </th>
-            <th class="caja"> 
-                <a href="/plantas/usuario"><img class="imagen" src="/images/cannabis/indica.png" /></a> 
-                <p class="texto">Cannabis indica</p>
-            </th>
-            <th class="caja">  
-                <a style="text-decoration: none;" href="/plantas/seleccionartipo"> 
-                <p class="imagen agregar"> + </p> </a> <p class="texto">Agregar</p>
+            @foreach (var p in PlantService.plants)
+            {   
+                @if(p.Email == user.Email) 
+                { 
+                    <th class="caja">
+                        <a href="/plantas/@p.Id"><img class="imagen" src="@p.Img" /></a>
+                        <p class="texto">@p.Type</p>
+                    </th>
+                }
+            }
+
+            <th class="caja">
+                <a style="text-decoration: none;" href="/plantas/tipo">
+                    <p class="imagen agregar"> + </p>
+                </a> <p class="texto">Agregar</p>
             </th>
 
         </tr>
@@ -26,6 +31,22 @@
 
 
 @code {
+    
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
 
+    public AuthenticationState authState { get; set; }
+
+    public User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authState = await _authState;
+
+        user = await PlantService.GetUser(authState.User.Identity.Name);
+
+        await PlantService.GetPlants();
+
+    }
 
 }

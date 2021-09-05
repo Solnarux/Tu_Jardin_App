@@ -1,0 +1,57 @@
+﻿@page "/cuenta/delete"
+@inject IPlantService PlantService
+@inject NavigationManager NavigationManager
+
+<link href="/css/plantas.css" rel="stylesheet" />
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> ¿Está seguro de eliminar todos sus datos y pasar a la eliminación definitva de su cuenta? </h4>
+
+
+        <table>
+            <tr>
+                <td><a href="/Identity/Account/Manage/DeletePersonalData" class="btn btn-danger" style="width: 10vw" @onclick="()=>HandleDelete()"> Eliminar </a></td>
+
+                <td><a href="/cuenta" class="btn btn-success" style="width: 10vw"> Cancelar </a></td>
+            </tr>
+        </table>
+
+
+
+    </div>
+</div>
+
+@code {
+
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
+
+    public AuthenticationState authState { get; set; }
+
+    public User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authState = await _authState;
+
+        user = await PlantService.GetUser(authState.User.Identity.Name);
+    }
+
+    async void HandleDelete()
+    {
+        await PlantService.GetPlants();
+
+        foreach(var p in PlantService.plants)
+        {
+            if(p.Email == user.Email)
+            {
+                await PlantService.DeleteAchieve(p.AchievementsId);
+            }
+        }
+
+        await PlantService.DeleteUser(user.Email);
+
+    }
+}

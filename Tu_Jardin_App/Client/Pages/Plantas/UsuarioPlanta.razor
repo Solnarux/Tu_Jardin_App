@@ -1,0 +1,48 @@
+﻿@page "/plantas/{id:int}"
+@inject IPlantService PlantService
+
+<link href="/css/plantasusuario.css" rel="stylesheet" />
+<link href="/css/plantas.css" rel="stylesheet" />
+
+<div class="page-background-class">
+    <div class="usuariocard">
+        <h4> @planta.Name </h4>
+
+        <p class="info">Responsable: <u>@planta.Owner</u></p>
+        <p class="info">Fecha de siembra: <u>@planta.Seeddate</u></p>
+        <p class="info">Tipo de planta: <u>@planta.Type</u></p>
+
+        <div class="center">
+                
+                <a href="/logros/@planta.Id" class="btn btn-success"> Logros </a>
+
+                <a href="/plantas/@planta.Id/edit" class="btn btn-success" style="color: white"> Editar </a>
+
+                <a href="/plantas/@planta.Id/delete" class="btn btn-success" style="color: white"> Eliminar </a>
+
+                <a href="/plantas" class="btn btn-success"> Volver </a>
+
+        </div>
+
+        
+    </div>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    Plant planta = new Plant();
+
+    protected override async Task OnInitializedAsync()
+    {
+        planta = await PlantService.GetPlant(id);
+    }
+
+
+
+
+
+}

@@ -70,35 +70,56 @@ using Microsoft.AspNetCore.Components.WebAssembly.Http;
 #nullable disable
 #nullable restore
 #line 9 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.WebUtilities;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 10 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client;
+using Microsoft.Extensions.Primitives;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 11 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client.Shared;
+using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 12 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
-using Tu_Jardin_App.Client.Services;
+using Tu_Jardin_App.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 13 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Client.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
 using Tu_Jardin_App.Shared.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\_Imports.razor"
+using Tu_Jardin_App.Shared;
 
 #line default
 #line hidden
@@ -111,6 +132,49 @@ using Tu_Jardin_App.Shared.Models;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 38 "C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\Pages\Index.razor"
+      
+
+    [CascadingParameter]
+    private Task<AuthenticationState> _authState { get; set; }
+
+    public AuthenticationState authState { get; set; }
+
+    User user = new User();
+
+    protected override async Task OnInitializedAsync()
+    {
+        authState = await _authState;
+
+        if (authState.User.Identity.IsAuthenticated)
+        {
+
+            try
+            {
+                user = await PlantService.GetUser(authState.User.Identity.Name);
+            }
+            catch (Exception)
+            {
+                user.Email = authState.User.Identity.Name;
+
+                user.UserName = user.Email;
+
+                user.Img = "/images/Perfil/ImageUsuario.png";
+
+                await PlantService.CreateUser(user);
+
+                user = await PlantService.GetUser(user.Email);
+            }
+        }
+    }
+
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IPlantService PlantService { get; set; }
     }
 }
 #pragma warning restore 1591
