@@ -10124,11 +10124,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
+      "projectUniqueName": "C:\\Users\\solna\\source\\repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
       "projectName": "Tu_Jardin_App.Client",
-      "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
+      "projectPath": "C:\\Users\\solna\\source\\repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
       "packagesPath": "C:\\Users\\solna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\obj\\",
+      "outputPath": "C:\\Users\\solna\\source\\repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\solna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10145,8 +10145,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
-              "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
+            "C:\\Users\\solna\\source\\repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
+              "projectPath": "C:\\Users\\solna\\source\\repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
             }
           }
         }

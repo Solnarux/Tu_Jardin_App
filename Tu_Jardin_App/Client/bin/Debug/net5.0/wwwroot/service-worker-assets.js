@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-9BBkixZ7+2wmzF50+IWcZ+qK5atxGUAlOiIHF8xxQ5Y=",
+      "hash": "sha256-tXJSYMyU2WlOvqxDteRTr+ZOacsHH+pR4O3IvEECILs=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1153,11 +1153,11 @@
       "url": "_framework\/Tu_Jardin_App.Shared.pdb"
     },
     {
-      "hash": "sha256-y9\/qWfUTGvY8yRIfRGaU1ryijxa6QWx5bFU+R6hxnQo=",
+      "hash": "sha256-QJ7P1s+0lNFltHsr7H+RLq1PKUu4BuLbzjfuqaaT0Ic=",
       "url": "_framework\/Tu_Jardin_App.Client.dll"
     },
     {
-      "hash": "sha256-VmyTTxsIKc7Y68LsDdncjXk5ubraSz4ANlSUiuWaqjE=",
+      "hash": "sha256-G8XprHYI0h\/kLMjbMYaQka+pxZuFomdVP9SakoLRs6o=",
       "url": "_framework\/Tu_Jardin_App.Client.pdb"
     },
     {
@@ -2565,5 +2565,5 @@
       "url": "Tu_Jardin_App.Client.bundle.scp.css"
     }
   ],
-  "version": "I3IdCg7A"
+  "version": "O2IOLWSH"
 };

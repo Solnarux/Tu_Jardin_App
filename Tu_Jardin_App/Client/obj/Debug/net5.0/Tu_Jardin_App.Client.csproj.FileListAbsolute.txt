@@ -3063,8 +3063,6 @@ C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debu
 C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta\EditarPerfil.razor.g.cs
 C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Cuenta\BorrarCuenta.razor.g.cs
 C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Cuenta\BorrarCuenta.razor.g.cs
-C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\BcnqJeCW.gz
-C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\Pitvy0Vl.gz
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Consejos\Consejo.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Consejos\ConsejoAromatica.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Consejos\ConsejoCannabis.razor.g.cs
@@ -3081,3 +3079,5 @@ C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debu
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Consejos\ConsejoMedicinales.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Consejos\ConsejoPlanta.razor.g.cs
 C:\Users\solna\Source\Repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\Razor\Pages\Consejos\ConsejosTipo.razor.g.cs
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\b1vJTECV.gz
+C:\Users\solna\source\repos\Solnarux\Tu_Jardin_App\Tu_Jardin_App\Client\obj\Debug\net5.0\build-gz\ahCYLOUp.gz
