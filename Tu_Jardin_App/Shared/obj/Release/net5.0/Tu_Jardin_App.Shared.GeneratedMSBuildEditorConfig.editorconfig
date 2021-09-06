@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows,browser
+build_property.RootNamespace = Tu_Jardin_App.Shared
+build_property.ProjectDir = C:\Users\laura\Desktop\Jardin\Tu_Jardin_App\Shared\
