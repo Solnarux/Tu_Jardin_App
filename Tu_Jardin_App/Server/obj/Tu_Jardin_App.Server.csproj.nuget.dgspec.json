@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj": {}
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj": {
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
+        "projectUniqueName": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
         "projectName": "Tu_Jardin_App.Client",
-        "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
-        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\obj\\",
+        "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj",
+        "packagesPath": "C:\\Users\\solna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\solna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
-                "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
+              "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
+                "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
               }
             }
           }
@@ -95,7 +95,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.9, 5.0.9]"
+              "version": "[5.0.8, 5.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -112,17 +112,17 @@
         }
       }
     },
-    "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj": {
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj",
+        "projectUniqueName": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj",
         "projectName": "Tu_Jardin_App.Server",
-        "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj",
-        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Server\\obj\\",
+        "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Server\\Tu_Jardin_App.Server.csproj",
+        "packagesPath": "C:\\Users\\solna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\solna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,11 +136,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj": {
-                "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj"
+              "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj": {
+                "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Client\\Tu_Jardin_App.Client.csproj"
               },
-              "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
-                "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
+              "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
+                "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj"
               }
             }
           }
@@ -230,21 +230,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
+    "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
         "projectName": "Tu_Jardin_App.Shared",
-        "projectPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
-        "packagesPath": "C:\\Users\\laura\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\laura\\Desktop\\Jardin\\Tu_Jardin_App\\Shared\\obj\\",
+        "projectPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\Tu_Jardin_App.Shared.csproj",
+        "packagesPath": "C:\\Users\\solna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\solna\\Source\\Repos\\Solnarux\\Tu_Jardin_App\\Tu_Jardin_App\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\laura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\solna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -302,7 +302,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
