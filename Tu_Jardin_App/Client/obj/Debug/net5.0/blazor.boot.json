@@ -233,11 +233,12 @@
       "netstandard.dll": "sha256-vJpyW6cE\/+ewo5rVB5JUu9x2f8aLnqoIazac8ef5FzQ=",
       "System.Private.CoreLib.dll": "sha256-CvQTDivHJZAtRXyCbDa5f5+okJt39WRFrZSmXTMSau0=",
       "Tu_Jardin_App.Shared.dll": "sha256-D1XJDDL6PA+Mnk5Axtj\/dTvQVAEkTQPtm3xVz7PlifM=",
-      "Tu_Jardin_App.Client.dll": "sha256-UWQdfpumojnSzlXJIgAnDUrCv9a4MOlPd4AjgZUQ+dM="
+      "Tu_Jardin_App.Client.dll": "sha256-YqcapOlEXpqa1fCNPCnfZ9zyB\/9D0U5kSzn+yQV2xBk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Tu_Jardin_App.Client.pdb": "sha256-XvCqlsUyrtOmY8azSyjBzI8lBTS5ymMcAT6Asgh0GxM="
+      "Tu_Jardin_App.Shared.pdb": "sha256-cPWK7JLKLBPTq6rbAjHvJGJo6x45KzB78fRyMg97J0s=",
+      "Tu_Jardin_App.Client.pdb": "sha256-wnQ+nrJdcXdGJoEqHddR+7xWmUxNwdoQeRg4k4lXM58="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2OdnPsDgJyoSaSlvebGMRd2MxC+4UIqparqVrQZAFDE=",
